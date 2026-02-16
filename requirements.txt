@@ -1,0 +1,7 @@
+pandas
+rdflib
+nltk
+tqdm
+bm25s
+numpy
+python-dotenv
