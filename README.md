@@ -8,8 +8,9 @@ This repository contains two main scripts to run a simple BM25-based candidate g
 
 - bm25_candidate_generator.py  : Extracts verbalizations from RDF KGs and generates BM25 candidate pairs (s, t) saved to `data/candidates/`.
 - analyse_bm25_results.py      : Loads candidate CSVs and reference alignments to compute Hits@K metrics and aggregate results (saved to `data/results/`).
-- utils.py                    : Helper functions for reading KG pair configs and extracting labels.
-- requirements.txt            : Python dependencies.
+- utils.py                     : Helper functions for reading KG pair configs and extracting labels.
+- requirements.txt             : Python dependencies.
+- bm25_hits_at_k_results.csv   : 100 configs × 5 KG pairs, Columns: KGPair, k1, b, C/P Hits@1/5/10/20/50, runtime
 
 ## Usage
 
