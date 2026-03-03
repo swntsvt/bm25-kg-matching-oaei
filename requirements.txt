@@ -5,3 +5,4 @@ tqdm
 bm25s
 numpy
 python-dotenv
+scikit-learn
